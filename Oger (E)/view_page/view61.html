@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_061.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 649px; top: 33px; width: 109px; height: 86px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tắm chó</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 473px; top: 27px; width: 107px; height: 87px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Khảo bùa bách nhật</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 327px; top: 26px; width: 134px; height: 71px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thợ mộc quấn dây mực</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 213px; top: 31px; width: 84px; height: 116px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Trẻ con nghịch ghẹo người điên</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg5' style='left: 51px; top: 19px; width: 94px; height: 71px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Quấn chỉ tăm bông</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 614px; top: 138px; width: 151px; height: 219px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Baignade du chien.  <br>Tắm chó.  <br>The dog swimming.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 476px; top: 120px; width: 126px; height: 164px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Confection d’une amulette.  <br>Làm bùa.  <br>Making an amulet. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 342px; top: 101px; width: 113px; height: 302px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Emploi du “trace-ligne” des menuisiers.  <br>Thợ mộc quấn dây mực.  <br>Use of the woodworker’s marking line.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 170px; top: 144px; width: 134px; height: 264px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Taquineries aux fous vagabondant dans les rues.  <br>Trêu ghẹo người điên lang thang trên phố.  <br>Teasing insane people wandering the streets.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 15px; top: 116px; width: 127px; height: 224px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Confection des cure-oreilles.  <br>Làm cái lấy ráy tai.  <br>Making ear-cleaners.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view60.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>61</div>
+<div class='right_buttons'><a href='view62.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

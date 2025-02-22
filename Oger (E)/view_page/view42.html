@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_042.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 727px; top: 72px; width: 34px; height: 18px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cánh liếp</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 600px; top: 337px; width: 26px; height: 51px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái sọt cau</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 50px; top: 25px; width: 145px; height: 26px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Thần vị Thổ Công</i></span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 627px; top: 94px; width: 157px; height: 185px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Clôture en bambou tressé.  <br>Hàng rào đan bằng tre.  <br>Woven bamboo fence.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 508px; top: 18px; width: 100px; height: 300px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Préface d’un livre de prières bouddhiques.  <br>Lời tựa sách kinh Phật.  <br>Preface of a Buddhist prayer book. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 256px; top: 8px; width: 221px; height: 323px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Les 24 exemples de piété filiale (image populaire).  <br>24 tấm gương hiếu nghĩa (tranh dân gian).  <br>The 24 examples of filial piety (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 15px; top: 61px; width: 221px; height: 276px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Thổ công, génie (image populaire).   <br>Thần Thổ Công (tranh dân gian).   <br>Thổ công, protector deity (folk print). </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 636px; top: 295px; width: 110px; height: 205px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Panier grossier pour le transport du tabac et des noix d’arec.  <br>Thúng to chở thuốc lào và quả cau.  <br>Rough basket to transport tobacco and areca nuts.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 382px; top: 335px; width: 197px; height: 142px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Habit ordinaire.  <br>Trang phục thường ngày.  <br>Common attire.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 210px; top: 344px; width: 147px; height: 161px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Applique en bois sculpté et ornementé.  <br>Đèn gắn tường bằng gỗ được chạm khắc và trang trí.  <br>Carved wood decorated wall ornament.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view41.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>42</div>
+<div class='right_buttons'><a href='view43.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

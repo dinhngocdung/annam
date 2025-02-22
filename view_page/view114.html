@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_114.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 595px; top: 10px; width: 164px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thắt dây lưng</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 405px; top: 22px; width: 52px; height: 341px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái mỏ vẹt quai nón bằng bạc. <i>Đồ vật này để trang sức trên nón của phụ nữ</i>. </span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 213px; top: 33px; width: 168px; height: 98px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Nhà sư lắc chuông</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 13px; top: 18px; width: 178px; height: 45px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Bắt quyết</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 594px; top: 72px; width: 163px; height: 334px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>La pose de la ceinture.  <br>Đeo thắt lưng.  <br>Putting on a belt.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 467px; top: 26px; width: 86px; height: 368px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Suspenseur en argent.  <br>Dây treo bằng bạc.  <br>Silver hanging chain. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 232px; top: 136px; width: 158px; height: 279px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Bonze agitant la sonnette.  <br>Nhà sư rung chuông.  <br>Monk ringing bell.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 9px; top: 70px; width: 190px; height: 321px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Gestes magiques avec les doigts.  <br>Chắp tay bắt quyết.  <br>Magical finger gestures.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view113.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>114</div>
+<div class='right_buttons'><a href='view115.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

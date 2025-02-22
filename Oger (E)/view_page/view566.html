@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_566.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 705px; top: 18px; width: 35px; height: 330px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Ống nứa trát ngói, ống của thợ nề. <i>Thợ nề chế ra ống này để đắp hình ống ngói giả.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 608px; top: 19px; width: 89px; height: 35px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Ống nứa trát ngói, ống của thợ nề. <i>Thợ nề chế ra ống này để đắp hình ống ngói giả.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 562px; top: 16px; width: 40px; height: 196px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Ống nứa trát ngói, ống của thợ nề. <i>Thợ nề chế ra ống này để đắp hình ống ngói giả.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 273px; top: 19px; width: 196px; height: 59px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cổng gạch</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 15px; top: 218px; width: 45px; height: 174px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Kìm thợ đồng để cặp nồi đổ vào khuôn</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 15px; top: 30px; width: 168px; height: 46px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Kìm thợ đồng để cặp nồi đổ vào khuôn</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 611px; top: 60px; width: 87px; height: 420px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Outil de potier.  <br>Dụng cụ của thợ gốm.  <br>Potter’s tool.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 288px; top: 85px; width: 184px; height: 361px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Type de porte.  <br>Kiểu cổng.  <br>Door. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 64px; top: 84px; width: 107px; height: 408px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pince du fondeur en cuivre.  <br>Cái kìm của thợ đúc đồng.   <br>Copper founder’s tongs.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view565.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>566</div>
+<div class='right_buttons'><a href='view567.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

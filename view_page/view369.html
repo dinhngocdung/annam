@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_369.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 630px; top: 13px; width: 100px; height: 132px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thợ mộc đo thước vuông</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 385px; top: 22px; width: 167px; height: 46px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thày lang bốc thuốc</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 193px; top: 21px; width: 167px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thày bói đi chợ</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 90px; top: 30px; width: 88px; height: 39px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đập nồi</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 581px; top: 154px; width: 157px; height: 180px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Usage de l’équerre.  <br>Dùng thước góc.  <br>Using a square.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 390px; top: 94px; width: 169px; height: 228px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pharmacien.  <br>Thầy thuốc.  <br>Pharmacist. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 218px; top: 110px; width: 158px; height: 284px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Devin aveugle.  <br>Thầy bói lòa.  <br>A blind medium.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 24px; top: 82px; width: 159px; height: 316px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Jeu de la marmite suspendue.  <br>Trò chơi đập niêu.  <br>The hanging pot game.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view368.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>369</div>
+<div class='right_buttons'><a href='view370.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

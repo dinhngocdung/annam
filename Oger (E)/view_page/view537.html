@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_537.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 572px; top: 13px; width: 152px; height: 96px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đèn dải quạt đám ma</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 282px; top: 271px; width: 47px; height: 118px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Lồng phơi giấy. <i>Làm giấy nhuộm thì dùng lồng này để phơi khô giấy.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 282px; top: 24px; width: 189px; height: 39px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Lồng phơi giấy. <i>Làm giấy nhuộm thì dùng lồng này để phơi khô giấy.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 12px; top: 26px; width: 156px; height: 44px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Lò đúc đồng</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 576px; top: 117px; width: 161px; height: 297px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Lanterne en papier.  <br>Đèn lồng giấy.  <br>Paper lantern.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 300px; top: 70px; width: 170px; height: 189px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Séchoir des papiers teints.  <br>Giá phơi giấy nhuộm.  <br>Dryers for colored papers. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 336px; top: 264px; width: 138px; height: 167px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Séchoir des papiers teints.  <br>Giá phơi giấy nhuộm.  <br>Dryers for colored papers. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 29px; top: 79px; width: 148px; height: 342px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Fourneau du fondeur en cuivre.  <br>Lò của thợ đúc đồng.   <br>Copper founder’s furnace.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view536.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>537</div>
+<div class='right_buttons'><a href='view538.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

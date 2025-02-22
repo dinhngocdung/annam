@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_608.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 555px; top: 29px; width: 122px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Khơi sông</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 289px; top: 96px; width: 32px; height: 293px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Dao bảy. <i>Dao dùng để phòng thủ trong các nhà dân.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 422px; top: 42px; width: 53px; height: 119px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Dao bảy. <i>Dao dùng để phòng thủ trong các nhà dân.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 36px; top: 40px; width: 147px; height: 121px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thổ đấu [thợ đào đất] nắm cơm</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 554px; top: 97px; width: 171px; height: 412px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Construction d’une digue.  <br>Đắp đê.  <br>Building a dike.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 332px; top: 50px; width: 74px; height: 462px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Couteau.  <br>Con dao.  <br>Knife. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 26px; top: 173px; width: 173px; height: 268px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Préparation du riz.  <br>Nắm cơm.  <br>Preparing rice.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view607.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>608</div>
+<div class='right_buttons'><a href='view609.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

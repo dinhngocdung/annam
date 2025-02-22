@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_059.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 640px; top: 8px; width: 26px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tranh Phúc Lộc</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 352px; top: 29px; width: 25px; height: 63px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Đường Tăng gặp nạn</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 342px; top: 293px; width: 25px; height: 79px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Đại Thánh đánh La Sát</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 119px; top: 212px; width: 58px; height: 25px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Võ trường [Trường thi võ] </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 543px; top: 71px; width: 214px; height: 116px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Phúc Lộc (bonheur et richesse) (image populaire).  <br>Phúc lộc (tranh dân gian).  <br>Phúc Lộc (wealth and happiness) (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 331px; top: 96px; width: 199px; height: 180px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Légende bouddhique (image populaire).  <br>Truyền thuyết Phật giáo (tranh dân gian).  <br>Buddhist legend. (folk print). </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 10px; top: 19px; width: 295px; height: 154px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le porc, patron du village (image populaire).  <br>Lợn, thần bảo trợ của làng (tranh dân gian).   <br>The pig, village protector (folk print). </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 564px; top: 201px; width: 212px; height: 356px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Mandarin militaire (image populaire).   <br>Quan võ (tranh dân gian).  <br>Mandarin -  soldier (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 371px; top: 291px; width: 159px; height: 257px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Légende de Đại Thánh (image populaire).   <br>Truyền thuyết về Đại Thánh (tranh dân gian).  <br>Legend of Đại Thánh (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 22px; top: 248px; width: 257px; height: 308px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Concours pour le mandarinat militaire (image populaire).  <br>Trường thi võ (tranh dân gian).  <br>Examination for military mandarins (folk print).</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view58.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>59</div>
+<div class='right_buttons'><a href='view60.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_088.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 402px; top: 24px; width: 102px; height: 93px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Dân ven biển biết đi cà kheo để phòng khi nước thủy triều lên, tục gọi là đi kheo.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 302px; top: 16px; width: 69px; height: 110px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thả diều én. <i>Trời nóng nực, trẻ con thả diều để hóng mát.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 142px; top: 21px; width: 42px; height: 132px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Quạt lông hầu</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 563px; top: 32px; width: 201px; height: 439px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Image du génie Đại Công.  <br>Tranh thần Đại Công.  <br>Picture of the protective deity Đại công.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 419px; top: 150px; width: 83px; height: 392px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Les échasses.  <br>Đôi cà kheo.  <br>Stilts. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 224px; top: 46px; width: 75px; height: 505px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le cerf-volant.  <br>Diều.  <br>Kite.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 9px; top: 115px; width: 127px; height: 282px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Mandarin au repos.  <br>Quan ngồi nghỉ.  <br>Mandarin at rest.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 141px; top: 213px; width: 58px; height: 215px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Mandarin au repos.  <br>Quan ngồi nghỉ.  <br>Mandarin at rest.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view87.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>88</div>
+<div class='right_buttons'><a href='view89.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_011.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 185px; top: 22px; width: 25px; height: 72px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Thợ làm nhà gạch</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 81px; top: 24px; width: 87px; height: 45px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đội thúng</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 686px; top: 298px; width: 26px; height: 42px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thợ nón</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 527px; top: 302px; width: 19px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đặt giấy để bồi</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 695px; top: 64px; width: 52px; height: 95px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Dais, à tête cylindrique, porté dans les processions.  <br>Lọng tròn mang trong các đám rước.   <br>Cylindrical-headed dais carried in processions.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 390px; top: 33px; width: 290px; height: 221px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Paysage en miniature dans un bassin.  <br>Hòn non bộ.   <br>Miniature landscape in a basin. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 216px; top: 19px; width: 168px; height: 316px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Échafaudage d’une maison en construction.  <br>Giàn dáo nhà đang xây.   <br>Scaffolding of house under construction.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 13px; top: 89px; width: 133px; height: 316px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Transport sur la tête.  <br>Đội hàng trên đầu.  <br>Transportation on bearer’s head.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 690px; top: 172px; width: 62px; height: 115px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Objet de culte, en cuivre, couvert de formules sanscrites.   <br>Đồ thờ bằng đồng, phủ mẫu chữ Phạn.   <br>Copper object of veneration with Sanskrit phrases. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 677px; top: 343px; width: 115px; height: 123px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Femme préparant la feuille destinée à la confection d’un chapeau.  <br>Phụ nữ chuẩn bị lá đan nón.  <br>Woman preparing leaf to be made into a hat.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 501px; top: 363px; width: 156px; height: 89px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Collage des papiers rituels représentant des feuilles d’or ou d’argent.  <br>Dán hàng mã làm lá vàng lá bạc để thờ.   <br>Woman gluing ritual papers that represent sheets of gold or silver.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg12' style='left: 416px; top: 283px; width: 67px; height: 159px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Rabotage d’un bâton cylindrique  <br>Bào gậy tròn.  <br>Planing a cylindrical pole.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg13' style='left: 373px; top: 340px; width: 35px; height: 50px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Suspenseur destiné au transport du papier.  <br>Quang treo để vận chuyển giấy.  <br>Hanging bar for sling to carry paper.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg14' style='left: 313px; top: 345px; width: 54px; height: 48px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Blouse d’enfant.  <br>Áo cánh trẻ em.  <br>Child’s smock.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg15' style='left: 262px; top: 344px; width: 44px; height: 56px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pantalon d\'enfant.  <br>Quần trẻ em.   <br>Child’s pants.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg16' style='left: 212px; top: 343px; width: 32px; height: 58px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Bavette d’enfant.   <br>Yếm dãi.   <br>Child’s bib. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg17' style='left: 302px; top: 409px; width: 110px; height: 24px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pièce d’un fusil d’autrefois.  <br>Chi tiết của súng thời xưa.  <br>Piece from old time gun.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg18' style='left: 305px; top: 438px; width: 100px; height: 29px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Crochet de suspension.  <br>Móc treo.  <br>Hanging hook.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg19' style='left: 227px; top: 407px; width: 53px; height: 52px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Mortier en pierre.   <br>Cối đá.   <br>Stone mortar. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg20' style='left: 288px; top: 472px; width: 161px; height: 40px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Mesures en bois ou en fer.  <br>Thước đo bằng gỗ hoặc sắt.   <br>Wood or iron measures.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg21' style='left: 119px; top: 464px; width: 145px; height: 39px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pelle et racloir pour le travail de la pâte à kẹo.  <br>Cái xúc và nạo làm bột kẹo  <br>Scoop and scraper to work dough for kẹo.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view10.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>11</div>
+<div class='right_buttons'><a href='view12.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

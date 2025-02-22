@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_373.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 608px; top: 32px; width: 84px; height: 31px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Xà tích quả đào, <i>một nửa đựng thuốc lào, một nửa đựng vôi.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 403px; top: 124px; width: 42px; height: 21px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tam sơn</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 71px; top: 29px; width: 25px; height: 39px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Cấy lúa</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 723px; top: 215px; width: 20px; height: 36px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái pháo</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg5' style='left: 566px; top: 216px; width: 26px; height: 45px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Bế con</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg6' style='left: 439px; top: 164px; width: 24px; height: 43px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Mậu tinh</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg7' style='left: 102px; top: 271px; width: 63px; height: 35px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái lều làm giấy</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg8' style='left: 661px; top: 434px; width: 22px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Lồng bẫy chim</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg9' style='left: 85px; top: 383px; width: 42px; height: 17px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Khóa sơn [?]</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 564px; top: 81px; width: 168px; height: 112px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chaufferette.  <br>Lồng ủ.  <br>Warmer.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 227px; top: 33px; width: 263px; height: 86px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Tam Sơn.  <br>Bệ Tam Sơn.<br>Tam Sơn. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg12' style='left: 22px; top: 73px; width: 194px; height: 107px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Repiquage du paddy.   <br>Cấy lúa.   <br>Planting rice seedlings. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg13' style='left: 678px; top: 257px; width: 61px; height: 141px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Ustensile.  <br>Một vật.  <br>Utensils.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg14' style='left: 598px; top: 220px; width: 62px; height: 161px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Soins aux enfants.  <br>Bế trẻ.  <br>Child care.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg15' style='left: 421px; top: 213px; width: 132px; height: 130px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Génies (gravures populaires).  <br>Các vị thần (tranh dân gian).  <br>Guardian deities (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg16' style='left: 228px; top: 153px; width: 181px; height: 178px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Génies (gravures populaires).  <br>Các vị thần (tranh dân gian).  <br>Guardian deities (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg17' style='left: 25px; top: 191px; width: 176px; height: 75px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chaumine pour la confection du papier.   <br>Lều làm giấy.  <br>Papermaking shed. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg17' style='left: 26px; top: 310px; width: 184px; height: 68px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chaumine pour la confection du papier.   <br>Lều làm giấy.  <br>Papermaking shed. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg18' style='left: 688px; top: 415px; width: 93px; height: 95px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Matériel de l’oiseleur.  <br>Dụng cụ của người bẫy chim.<br>Bird-catcher’s equipment.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg18' style='left: 586px; top: 431px; width: 69px; height: 95px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Matériel de l’oiseleur.  <br>Dụng cụ của người bẫy chim.<br>Bird-catcher’s equipment.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg19' style='left: 225px; top: 361px; width: 350px; height: 159px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Cortège mandarinal.  <br>Đoàn hộ tống quan.  <br>Procession of a Mandarin.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg20' style='left: 27px; top: 406px; width: 176px; height: 99px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Caronade.  <br>Súng cối.  <br>Canon. </span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view372.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>373</div>
+<div class='right_buttons'><a href='view374.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

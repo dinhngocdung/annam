@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_252.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 634px; top: 30px; width: 72px; height: 26px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Làm bằng vàng bạc</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 510px; top: 12px; width: 74px; height: 93px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Người đàn bà rút sợi kén, tục gọi kéo kén.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 259px; top: 9px; width: 57px; height: 122px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Dùng gậy kép đập đậu, gọi là đập đậu tương.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 16px; top: 15px; width: 26px; height: 96px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tục ngôn [gọi là] phát cỏ bờ</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg5' style='left: 406px; top: 347px; width: 26px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái rá</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 638px; top: 66px; width: 139px; height: 363px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le Con hạc (image populaire).  <br>Con hạc (tranh dân gian).  <br>Le Con hạc (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 429px; top: 140px; width: 178px; height: 196px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le dévidage de la soie.  <br>Kéo tơ.  <br>Spooling silk. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 242px; top: 137px; width: 169px; height: 189px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Récolte des pois.  <br>Thu hoạch đậu.  <br>Pea harvest.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 18px; top: 117px; width: 164px; height: 271px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Travail des talus de rizière.   <br>Phát cỏ bờ.   <br>Work on rice paddy banks. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 447px; top: 377px; width: 166px; height: 82px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Panier en lanières de bambou.  <br>Cái thúng. <br>A woven bamboo basket.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 304px; top: 359px; width: 96px; height: 135px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Turban de coolie.  <br>Khăn đội đầu của phu.  <br>Coolie’s turban.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg12' style='left: 194px; top: 365px; width: 87px; height: 117px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Panier à anse.  <br>Giỏ có quai.  <br>Basket with handle. </span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view251.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>252</div>
+<div class='right_buttons'><a href='view253.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+
+</body>
+
+</html>

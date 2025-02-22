@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_020.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 561px; top: 65px; width: 42px; height: 45px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Cóc trông trăng</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 339px; top: 17px; width: 49px; height: 61px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Gánh xiếc</i> tung cầu hứng</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 258px; top: 53px; width: 19px; height: 39px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tung dao</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 101px; top: 60px; width: 21px; height: 32px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Bắc cầu</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg5' style='left: 746px; top: 218px; width: 24px; height: 76px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thanh siêu đao gấp</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg6' style='left: 732px; top: 389px; width: 29px; height: 108px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Gánh xiếc </i>đánh đinh câu</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg7' style='left: 366px; top: 395px; width: 23px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Trẻ con kéo co</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg8' style='left: 3px; top: 370px; width: 31px; height: 139px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Gánh xiếc múa võ trên dây</i></span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 696px; top: 96px; width: 100px; height: 57px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Bouilloire en cuivre.  <br>Ấm đun nước bằng đồng.  <br>Copper kettle.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 375px; top: 83px; width: 100px; height: 152px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Saltimbanque jonglant avec des boules.  <br>Người làm trò tung bóng.  <br>Acrobat juggling balls. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 28px; top: 102px; width: 286px; height: 198px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>La “danse des couteaux”.   <br>Múa dao.  <br>The knife dance. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg12' style='left: 542px; top: 115px; width: 150px; height: 241px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Lanterne en bambou et en papier représentant un poisson (jouet).  <br>Đèn lồng hình cá làm bằng tre và giấy (đồ chơi).  <br>A paper and bamboo lantern in the shape of a fish (toy).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg13' style='left: 489px; top: 246px; width: 48px; height: 97px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Réceptacle des tasses d’eau-de-vie offertes dans les cérémonies rituelles.  <br>Nơi để chén rượu tế trong các buổi lễ.  <br>Receptacle for brandy offering cups used in rituals.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg14' style='left: 393px; top: 257px; width: 44px; height: 110px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chinois jouant des cymbales (jouet en fer-blanc).  <br>Người Tàu đánh chũm chọe (đồ chơi bằng sắt tây).  <br>Chinese playing cymbals (tin toy).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg15' style='left: 320px; top: 254px; width: 68px; height: 96px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pendentif rituel en bambou et en papier supportant des ex-voto (souliers et chapeau).   <br>Vòm thờ bằng tre và giấy dùng để treo đồ cúng (giầy và mũ).  <br>Ritual bamboo and paper pendant carrying post-offering votive objects (shoes and hats). </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg16' style='left: 588px; top: 374px; width: 140px; height: 188px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Saltimbanque jonglant avec 3 cerceaux en fer.  <br>Người làm trò đang múa với ba vòng sắt.  <br>Acrobat juggling with three iron rings.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg17' style='left: 444px; top: 363px; width: 117px; height: 188px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Femme jouant de la guitare (image populaire).  <br>Phụ nữ chơi đàn (tranh dân gian).  <br>Woman playing the guitar (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg18' style='left: 229px; top: 396px; width: 132px; height: 133px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Gamins jouant à l’équilibre.  <br>Trẻ em chơi kéo co.   <br>Youngsters playing balance game.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg19' style='left: 44px; top: 313px; width: 171px; height: 195px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Jongleur descendant la corde.  <br>Người làm trò đang xuống dây.  <br>Juggler descending a rope.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view19.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>20</div>
+<div class='right_buttons'><a href='view21.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

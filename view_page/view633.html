@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_633.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 675px; top: 173px; width: 15px; height: 91px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Chiêu đề [bố cáo]. <i>Chỗ này cấm không được phóng uế.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 546px; top: 21px; width: 43px; height: 96px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Chiêu đề [bố cáo]. <i>Chỗ này cấm không được phóng uế.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 332px; top: 33px; width: 136px; height: 104px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Giã lúa làm cốm</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 164px; top: 235px; width: 27px; height: 125px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đèn vuông, <i>thường dùng ở nhà chùa.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 37px; top: 28px; width: 150px; height: 42px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đèn vuông, <i>thường dùng ở nhà chùa.</i></span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 561px; top: 121px; width: 107px; height: 332px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Affiche champêtre.  <br>Biển cấm ngoài đồng.  <br>Sign in countryside.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 267px; top: 178px; width: 215px; height: 243px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pilonnage.  <br>Giã gạo.  <br>Pounding. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 33px; top: 77px; width: 126px; height: 422px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Lanterne rituelle.  <br>Đèn lồng để thờ.  <br>Ritual lantern.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view632.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>633</div>
+<div class='right_buttons'><a href='view634.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

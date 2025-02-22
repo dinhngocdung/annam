@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_605.jpg'  border='0'></div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 721px; top: 270px; width: 28px; height: 143px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cúc đeo tai. <i>Đồ trang sức đeo tai của phụ nữ, làm bằng vàng hoặc bạc.</i> </span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 577px; top: 105px; width: 66px; height: 125px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cúc đeo tai. <i>Đồ trang sức đeo tai của phụ nữ, làm bằng vàng hoặc bạc.</i> </span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 557px; top: 25px; width: 174px; height: 61px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cúc đeo tai. <i>Đồ trang sức đeo tai của phụ nữ, làm bằng vàng hoặc bạc.</i> </span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 51px; top: 54px; width: 134px; height: 111px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Gương cúc trang kim</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg3' style='left: 570px; top: 234px; width: 143px; height: 151px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Boucle d’oreilles.  <br>Hoa tai.  <br>Ear rings.</span> </div></div><div class='fn-area fn-area-table' id='unique-id-dogphotomeg3' style='left: 651px; top: 99px; width: 99px; height: 132px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Boucle d’oreilles.  <br>Hoa tai.  <br>Ear rings.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 290px; top: 82px; width: 199px; height: 330px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Les Saints (gravure bouddhique).   <br>Các vị thánh (điêu khắc Phật giáo).  <br>The Saints (Buddhist print). </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 12px; top: 173px; width: 199px; height: 194px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Objet rituel en papier.  <br>Đồ thờ bằng giấy.  <br>Paper ritual object.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view604.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>605</div>
+<div class='right_buttons'><a href='view606.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

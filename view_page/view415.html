@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_415.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 704px; top: 64px; width: 22px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái lò đốt sớ</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 328px; top: 56px; width: 42px; height: 16px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Trường văn</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 632px; top: 393px; width: 42px; height: 36px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Hình con rắn</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 266px; top: 292px; width: 71px; height: 24px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Trẻ con búi tóc</i></span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 618px; top: 31px; width: 82px; height: 190px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Édifice pour brûler les objets rituels en papier.  <br>Lò đốt vàng mã.  <br>Housing in which to burn paper, ritual objects.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 235px; top: 82px; width: 370px; height: 164px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Entrée du camp des lettrés.  <br>Lối vào trường thi văn.  <br>Entrance of the scholars’ camp. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 26px; top: 19px; width: 186px; height: 352px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Auvent.   <br>Mái hiên.   <br>Awning. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 630px; top: 272px; width: 69px; height: 109px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Armature de la statue rituelle d’un serpent en papier.  <br>Cốt tượng thờ hình con rắn bằng giấy.  <br>Trussing of a ritual paper snake.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 507px; top: 307px; width: 87px; height: 117px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Pot à chaux.  <br>Bình vôi.  <br>Lime pot.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 394px; top: 307px; width: 82px; height: 119px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Boîte en écaille de tortue.  <br>Hộp đồi mồi.  <br>Tortoise shell box.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 263px; top: 321px; width: 80px; height: 98px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Coiffure d’enfant.   <br>Kiểu tóc trẻ em.  <br>Child’s headdress.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view414.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>415</div>
+<div class='right_buttons'><a href='view416.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

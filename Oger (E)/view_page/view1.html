@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:-2px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_001.jpg'  border='0'></div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 435px; top: 23px; width: 23px; height: 39px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thày bói</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 250px; top: 23px; width: 25px; height: 40px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Ăn mày</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 71px; top: 7px; width: 23px; height: 46px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Lấy ráy tai</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 0px; top: 168px; width: 49px; height: 92px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Đẻ rơi giữa đường</i></span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 675px; top: 92px; width: 93px; height: 91px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Rôle du coq dans la vie magique.  <br>Gà trống trong trong đời sống tín ngưỡng.  <br>Role of the rooster in the world of magic.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 464px; top: 18px; width: 103px; height: 152px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Devin aveugle.  <br>Thầy bói lòa.  <br>Blind medium. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 285px; top: 13px; width: 111px; height: 141px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Gestes du mendiant.  <br>Động tác của người ăn mày.  <br>Beggar’s gestures.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 100px; top: 10px; width: 121px; height: 150px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le cureur d’oreilles.  <br>Thợ lấy ráy tai.  <br>Ear cleaner.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 538px; top: 223px; width: 82px; height: 31px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Couteau à hacher la viande.  <br>Dao băm thịt.  <br>Butcher.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 538px; top: 258px; width: 100px; height: 35px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Rabot.  <br>Bào gỗ.  <br>Plane. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 482px; top: 220px; width: 37px; height: 93px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Couteau à bétel.   <br>Dao cau.  <br>Betel nut knife. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg12' style='left: 503px; top: 326px; width: 272px; height: 183px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Paysans revenant du marché.  <br>Nông dân đi chợ về.  <br>Peasants returning from market.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg13' style='left: 345px; top: 269px; width: 107px; height: 240px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Costume d’une femme riche.  <br>Trang phục của người phụ nữ giàu có.  <br>Rich woman’s outfit.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg14' style='left: 182px; top: 234px; width: 132px; height: 266px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Génie gardien de la porte (imagerie populaire).  <br>Thần giữ cửa (tranh dân gian).  <br>Door Guardian Deity (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg15' style='left: 56px; top: 182px; width: 100px; height: 225px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>L’accouchement en dehors de la maison.  <br>Đẻ rơi ngoài đường.   <br>Childbirth outside the home.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='#' id='back' target='_self'><img src='../images/previous_.gif'></a></div>
+<div id='centerText'>1</div>
+<div class='right_buttons'><a href='view2.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

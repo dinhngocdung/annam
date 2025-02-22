@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_348.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 627px; top: 26px; width: 40px; height: 214px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Phạm tội đại nghịch: trảm quyết.</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 409px; top: 23px; width: 96px; height: 46px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Xem đất làm nhà</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 233px; top: 24px; width: 113px; height: 90px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Rót dầu phao đèn</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 16px; top: 23px; width: 163px; height: 51px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thái rau chuối</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 570px; top: 245px; width: 195px; height: 182px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Exécution.  <br>Hành hình.  <br>Execution.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 671px; top: 123px; width: 93px; height: 118px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Exécution.  <br>Hành hình.  <br>Execution.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 366px; top: 82px; width: 183px; height: 318px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Sorcier consultant la boussole.  <br>Thầy cúng xem la bàn.  <br>Shaman consulting a compass. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 203px; top: 147px; width: 143px; height: 201px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Préparation de la lampe.  <br>Chuẩn bị đèn.  <br>Preparing a lamp.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 17px; top: 90px; width: 174px; height: 231px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Utilisation du bananier.  <br>Thái cây chuối. <br>Use of the banana tree.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view347.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>348</div>
+<div class='right_buttons'><a href='view349.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

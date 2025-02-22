@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_171.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 713px; top: 25px; width: 36px; height: 51px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Bỏ bả</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 533px; top: 21px; width: 48px; height: 165px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thông ống lông ngỗng</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 216px; top: 25px; width: 48px; height: 31px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Sĩ nông</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 166px; top: 37px; width: 23px; height: 38px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đậu phụ</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 602px; top: 81px; width: 170px; height: 330px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Truc de voleur.  <br>Mẹo ăn trộm.  <br>Thief’s trick.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 405px; top: 146px; width: 124px; height: 248px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Préparation des tubes en plume destinés à contenir les médicaments.  <br>Làm ống lông để đựng thuốc.  <br>Making tubes from feathers used to hold medicines. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 208px; top: 62px; width: 179px; height: 187px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Écoliers et laboureurs (image populaire).  <br>Học trò và người thợ cày (tranh dân gian).  <br>Students and laborers (folk print).</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 15px; top: 23px; width: 146px; height: 165px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Préparation du soja.   <br>Làm đậu phụ.   <br>Making bean curd. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg9' style='left: 200px; top: 258px; width: 184px; height: 213px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le résonateur de pierre.  <br>Khánh đá.  <br>A stone gong.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg10' style='left: 28px; top: 196px; width: 161px; height: 160px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Le rabotage des lames de couteau.  <br>Mài dao.  <br>Smoothing knife blades.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 25px; top: 397px; width: 133px; height: 72px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Siège bas en bambou.  <br>Ghế tre thấp.  <br>Low bamboo seat.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view170.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>171</div>
+<div class='right_buttons'><a href='view172.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

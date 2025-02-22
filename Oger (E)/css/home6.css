@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	behavior:url("css/csshover.htc");
+	font-family:Arial, Helvetica, sans-serif;
+	left:200px;
+	text-align:left;
+
+	
+}
+.home
+{
+	top:20px;
+	margin-left:20px;
+}
+
+.intro1
+{
+	width:600px;
+	font-size:24px;
+	border:1px #CCCCCC solid;
+	padding:30px;
+	margin: 10px 50px auto;
+}
+
+.intro1:hover {
+	background-color:#EEE;
+}
+
+
+
+.intro1 a {
+	cursor: pointer;
+}
+
+#divtest{
+	color:#666666;
+	
+
+}
+
+.divtest p{
+	padding: 10px 0px 10px 20px;
+	color:#999999;
+	font-size:16px;
+	margin:0px;
+
+}
+
+
+.child{
+	padding: 10px 0px 10px 20px;
+	color:#999999;
+	text-decoration:none;
+	font-size:16px;
+	margin:0px;
+}
+
+
+
+.child b:hover{
+	
+	background-color:#EEE;
+}
+
+a{
+	font-size:24px;
+}

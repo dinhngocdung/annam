@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_279.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 737px; top: 76px; width: 27px; height: 106px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tục viết [gọi là] hát bài bông</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 392px; top: 19px; width: 203px; height: 122px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Đồ chơi Trung Thu</i>: đèn quả lựu.</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 196px; top: 24px; width: 183px; height: 174px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Kỳ Đồng phạm tội đại nghịch, đã bị chôn sống. Sau sự việc đó, một đêm trời vừa tờ mờ sáng, chợt thấy có một cậu học trò đi vào công đường. Quan tỉnh hỏi trò từ đâu tới, đáp rằng tôi vừa dưới mộ lên. Quan tỉnh thấy cậu chân đi có một chiếc giày, bèn ra vế câu đối: "đầu che bốn lọng". Cậu ứng khẩu đáp ngay: "chân đi một giày"</i>. </span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 26px; top: 124px; width: 26px; height: 41px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Kim bài</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 615px; top: 188px; width: 157px; height: 256px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Danseurs aux flambeaux.  <br>Múa đèn hoa.   <br>Dancers with torches.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 413px; top: 149px; width: 176px; height: 243px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Lanterne en forme de fruit.  <br>Đèn lồng hình quả.   <br>Fruit-shaped lantern. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 220px; top: 203px; width: 163px; height: 243px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Histoire de Kì Đồng.  <br>Chuyện Kì Đồng.  <br>The story of Kì Đồng. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 9px; top: 37px; width: 174px; height: 397px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>L’ordre officiel.  <br>Thẻ bài.  <br>An official order.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view278.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>279</div>
+<div class='right_buttons'><a href='view280.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

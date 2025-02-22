@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_009.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 613px; top: 25px; width: 87px; height: 126px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Giày gót da: <i>giày này quai bằng da, đế bằng gỗ. Giày này tiện để lội vũng nước mưa.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 538px; top: 36px; width: 33px; height: 72px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Giày tích:<i> giày đi mưa, đế bằng gỗ, quai bằng da. Có các hạng khác nhau. Người có chức tước viền quai bằng nhiễu đỏ. Giày này dùng cho đàn ông. </i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 199px; top: 21px; width: 76px; height: 156px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Tục ngôn [gọi là] giày hàm nhái. <i>Giày này do người xã Trúc Lâm tỉnh Hải Dương chế ra, thuộc bằng da trâu bò</i>.</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 70px; top: 15px; width: 59px; height: 65px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Người làm ruộng đội nón này</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg5' style='left: 65px; top: 249px; width: 19px; height: 41px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái cổng</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg6' style='left: 744px; top: 287px; width: 21px; height: 45px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Lồng chim, làm bằng tre</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg7' style='left: 615px; top: 327px; width: 37px; height: 66px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'><i>Dùi vuông</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg8' style='left: 392px; top: 309px; width: 161px; height: 88px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Giày Mán:<i> giày này do phụ nữ người Mán làm ra, tiện đi đường rừng núi.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg9' style='left: 236px; top: 310px; width: 110px; height: 136px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Giày tang:<i> giày bện bằng sợi đay tước nhỏ, dùng cho người có đại tang đi vào làm tế lễ.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg10' style='left: 93px; top: 379px; width: 23px; height: 47px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Con thỏ đất</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg11' style='left: 422px; top: 157px; width: 371px; height: 146px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chaussure de luxe.  <br>Giầy sang trọng.  <br>Luxury shoe.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg12' style='left: 230px; top: 182px; width: 120px; height: 116px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chaussure ordinaire.  <br>Giầy bình dân.  <br>Ordinary shoe. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg13' style='left: 13px; top: 89px; width: 174px; height: 71px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Chapeau de paysan.  <br>Nón của người nông dân.   <br>Peasant hat.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg14' style='left: 90px; top: 179px; width: 101px; height: 178px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Fermeture, en bambou tressé, de l’ouverture d’une haie, à la campagne.   <br>Cổng rào làm bằng phên tre ở nông thôn.   <br>Bamboo trellis closure of a country hedge. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg14' style='left: 19px; top: 181px; width: 41px; height: 182px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Fermeture, en bambou tressé, de l’ouverture d’une haie, à la campagne.   <br>Cổng rào làm bằng phên tre ở nông thôn.   <br>Bamboo trellis closure of a country hedge. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg15' style='left: 661px; top: 337px; width: 119px; height: 101px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Cage à suspension.  <br>Lồng treo.  <br>Hanging cage.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg16' style='left: 559px; top: 309px; width: 52px; height: 211px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Foret à trois arêtes.  <br>Khoan ba cạnh.  <br>Three-faced punch.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg17' style='left: 385px; top: 408px; width: 113px; height: 133px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Soulier de luxe.  <br>Giầy không cổ sang trọng.  <br>Luxury shoe.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg18' style='left: 184px; top: 449px; width: 189px; height: 88px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Soulier de deuil.  <br>Giầy tang.  <br>Mourning shoe.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg19' style='left: 16px; top: 429px; width: 149px; height: 92px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Lapin en terre cuite (jouet).  <br>Thỏ bằng đất nung (đồ chơi).  <br>Toy, earthenware rabbit.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view8.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>9</div>
+<div class='right_buttons'><a href='view10.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

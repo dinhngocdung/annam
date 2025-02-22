@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DVD</title>
+<link rel="stylesheet" type="text/css" href="../css/general_view.css" />
+<script type="text/javascript" src="../js/general_view_en.js"></script>
+<script language="javascript" src="../js/languages.js"></script>
+<script language="javascript" src="../js/frames.js"></script>
+<script language="javascript" src="../js/view.js"></script>
+<script type="text/javascript" src="../js/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="../js/stepcarousel.js"></script>
+
+</head>
+
+<body onload="changeLanguageGeneralView(); firstLoad(); ">
+<script type="text/javascript">
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	panelbehavior: {speed:500, wraparound:false, persist:false},
+	<!--[if lt IE 7]> panelbehavior: {speed:500, wraparound:false, persist:false}, <![endif]-->
+	defaultbuttons: {enable: true, moveby: 1, leftnav: ['../images/blank.gif', -5, 180], rightnav: ['../images/blank.gif', -20, 280]},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['ajax', 'imageDIVs.html'] //content setting ['inline'] or ['external', 'path_to_external_file']
+})
+
+</script>
+
+<div id="buttons">
+    <div id="leftButtons" ><input type="image" src="../images/first.gif" id="first" onclick="stepcarousel.stepTo('mygallery', 1); first();" class="first" /><input type="image" src="../images/back.gif" id="back" onclick="stepcarousel.stepBy('mygallery', -1); decrease();" class="back"/></div>
+    <div id="centerText" ><label id="hinh_lbl1">Planches </label><label id="info">1-20</label>&nbsp;<label id="hinh_lbl2"> sur 700 </label></div>
+    <div id="rightButtons" ><input type="image" src="../images/next.gif" id="next" onclick="stepcarousel.stepBy('mygallery', 1); increase();" class="next"  /><input type="image" src="../images/last.gif" id="last" onclick="stepcarousel.stepBy('mygallery', 35); last();" /><input type="hidden" name="check" id="check_no" value = "20"/></div>
+    
+</div>
+
+
+<div id="mygallery" class="stepcarousel" >
+<div class="belt">
+
+ <!-- hide DIVs -->
+
+</div>
+</div>
+
+<p>
+
+</p>
+</body>
+</html>

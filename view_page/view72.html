@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_072.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 577px; top: 12px; width: 166px; height: 39px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Yểm bùa trấn trạch</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 385px; top: 18px; width: 160px; height: 50px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Ủ mốc tương</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 213px; top: 19px; width: 140px; height: 48px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Gọi hồn</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg4' style='left: 26px; top: 27px; width: 155px; height: 43px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đánh bẫy chuột</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 579px; top: 60px; width: 176px; height: 321px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Cérémonie magique.  <br>Yểm bùa.  <br>Magic ceremony.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 388px; top: 115px; width: 149px; height: 269px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Femme préparant un condiment.  <br>Bà đang làm gia vị.  <br>Woman making condiment. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 205px; top: 102px; width: 170px; height: 258px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Femmes effectuant une cérémonie magique.  <br>Các bà đang làm lễ.  <br>Women carrying out magic ceremony.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg8' style='left: 26px; top: 84px; width: 158px; height: 229px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Piège à rat.  <br>Bẫy chuột.  <br>Rat trap.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view71.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>72</div>
+<div class='right_buttons'><a href='view73.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

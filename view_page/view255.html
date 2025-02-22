@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_255.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 632px; top: 14px; width: 105px; height: 91px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Thợ sơn vắt sơn</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 454px; top: 19px; width: 132px; height: 56px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đánh mắt</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 270px; top: 14px; width: 154px; height: 50px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Gọt quả bưởi</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 616px; top: 121px; width: 159px; height: 230px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Filtrage de la laque.  <br>Lọc sơn.  <br>Filtering lacquer.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 447px; top: 112px; width: 146px; height: 225px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Soins médicaux populaires.  <br>Chữa bệnh theo phương pháp dân gian.  <br>Common people’s medical treatment. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 273px; top: 127px; width: 166px; height: 240px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Usage des fruits.  <br>Gọt hoa quả.  <br>Handling fruit.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg7' style='left: 10px; top: 22px; width: 224px; height: 311px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>La suspension des poissons en bambou et en papier.  <br>Giá treo cá bằng tre và giấy.  <br>Bamboo and paper fish hangings.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view254.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>255</div>
+<div class='right_buttons'><a href='view256.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>

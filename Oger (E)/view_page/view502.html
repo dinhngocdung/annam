@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>DVD</title>
+<script type='text/javascript' src='../js/view.js'></script>
+<script language='javascript' src='../js/languages.js'></script>
+<!--[if IE]>
+<style>
+#zoomContainer{ 
+filter: alpha(opacity=1); 
+background:#FFF; 
+} 
+</style>
+<![endif]--> 
+<link rel='stylesheet' type='text/css' href='../css/view.css' />
+<!--[if lt IE 7]>   <link href='../css/view6.css' rel='stylesheet' type='text/css' />
+<![endif]-->
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+</head>
+<body onLoad='loadHeight();'>
+<label id='test_lbl'></label>
+<div align='center' id='unique-id-dogphoto' class='fn-container fn-container-active' style='width: 850px; height: 670px; top:58px;'>
+<form name='images_test' id = 'images_test' style='margin:0px; padding:0px;'>
+<div id='container1' onMouseMove='move(event);' onMouseDown='down(event);' onMouseUp='up(event);' onClick='this.focus(); this.blur();' onMouseOut='stopMove(event);' style='position:relative; overflow:hidden; float:left; width:800px; height:600px;'>
+<div id='zoomContainer' style='cursor:default;left:-1px; top:-6px; position:absolute; width:800px; height:600px;z-index:0 ' onMouseOut='stopMove(event);'></div>
+<img onfocus='blur();' id='zoom' name='zoom' style='left:0px; top:0px; position:absolute; z-index:0; width:800px; height:auto;' src='../test_images/OGER_Page_502.jpg'  border='0'>
+</div>
+</form>
+<br clear='all' /><div id='log'></div>
+<div class='fn-area' id='unique-id-dogphotomeg1' style='left: 590px; top: 27px; width: 141px; height: 54px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Đi cuốc mộ</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg2' style='left: 299px; top: 26px; width: 159px; height: 97px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Chữ Thọ tròn trổ trang kim</span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 131px; top: 26px; width: 43px; height: 177px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái bay thợ nề. <i>Thợ nề dùng bay này để trát trang trí tường hoa.</i></span> </div></div>
+<div class='fn-area' id='unique-id-dogphotomeg3' style='left: 21px; top: 71px; width: 35px; height: 257px; z-index:10;'>
+<div class='fn-note-char'> <span class='fn-note-content'>Cái bay thợ nề. <i>Thợ nề dùng bay này để trát trang trí tường hoa.</i></span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg4' style='left: 626px; top: 98px; width: 100px; height: 286px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Retour du marché.  <br>Đi chợ về.  <br>Returning from market.</span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg5' style='left: 286px; top: 130px; width: 189px; height: 181px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Objet rituel en papier.  <br>Đồ thờ bằng giấy.  <br>Paper ritual object. </span> </div></div>
+<div class='fn-area fn-area-table' id='unique-id-dogphotomeg6' style='left: 59px; top: 35px; width: 66px; height: 379px; z-index:10;'>
+<div class='fn-note-table'> <span class='fn-note-content'>Outil du potier.  <br>Dụng cụ của thợ gốm.  <br>Potter’s tool.</span> </div></div>
+<div class='fn-controlbar fn-controlbar-active' align='left'>
+
+
+<div id='textDisplay'>
+<div class='left_buttons'><a href='view501.html' id='back' target='_self'><img src='../images/back.gif'></a></div>
+<div id='centerText'>502</div>
+<div class='right_buttons'><a href='view503.html' target='_self' id='next'><img src='../images/next.gif'> </a></div>
+</div>
+<span id='changeStyle' class='fn-controlbar-toggle-inactive' onClick='changeImage();'> </span>
+<span id='changeZoom' class='fn-controlbar-zoom-active' onClick='toggleZoom(); return false;'> </span>
+</div>
+</div>
+<input type='hidden' id='rememberImageNum' value='1'>
+</body>
+</html>
